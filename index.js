@@ -10,9 +10,9 @@ const client = new Client({
     partials: [Partials.Message, Partials.Channel, Partials.Reaction],
 });
 
-const TOKEN = 'YOUR_BOT_TOKEN';
-const GUILD_ID = 'YOUR_GUILD_ID';
-const CATEGORY_ID = 'YOUR_TICKET_CATEGORY_ID'; // destek ticket kanallarının oluşturulacağı kategori ID'si
+const TOKEN = 'MTM2MzE1MTY3NDE1NTM0MDAxOA.GNUcK8.16cGkvVcEk8r-x8ho6voumtshij3WDcRSFzt4k';
+const GUILD_ID = '1096804873393156199';
+const CATEGORY_ID = '1363202459555729577'; // destek ticket kanallarının oluşturulacağı kategori ID'si
 
 client.once(Events.ClientReady, () => {
     console.log(`Bot giriş yaptı: ${client.user.tag}`);
