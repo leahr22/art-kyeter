@@ -24,7 +24,7 @@ client.on(Events.InteractionCreate, async interaction => {
     if (interaction.customId === 'create_ticket') {
         const existingChannel = interaction.guild.channels.cache.find(c => c.topic === interaction.user.id);
         if (existingChannel) {
-            await interaction.reply({ content: 'Zaten bir açık ticket'iniz var.', ephemeral: true });
+            await interaction.reply({ content: 'Zaten bir açık ticketiniz var.', ephemeral: true });
             return;
         }
 
