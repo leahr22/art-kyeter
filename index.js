@@ -92,4 +92,6 @@ client.on(Events.ClientReady, async () => {
     }
 });
 
+const TOKEN = process.env.DISCORD_TOKEN;
+
 client.login(TOKEN);
